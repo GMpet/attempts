@@ -31,7 +31,7 @@ namespace attempts
                                 break;
                             }
                         }
-                        Console.WriteLine($"{attempts} attempts needed to get your mount");
+                        Console.WriteLine($"After {attempts} attempts you finally got your mount.");
                     }
                     else
                     {
@@ -40,7 +40,7 @@ namespace attempts
                 }
                 catch (FormatException)
                 {
-                    Console.WriteLine("Input not a number");
+                    Console.WriteLine("Input is not a number");
                 }
             }
         }
